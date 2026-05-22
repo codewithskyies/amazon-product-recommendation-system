@@ -7,7 +7,9 @@ from sklearn.metrics.pairwise import cosine_similarity
 import streamlit as st
 from PIL import Image
 
-
+import nltk
+nltk.download('punkt')
+nltk.download('punkt_tab')
 
 
 
