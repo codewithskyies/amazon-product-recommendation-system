@@ -49,7 +49,7 @@ def search_products(query):
 # web app
 img = Image.open('amazon.png')
 st.image(img,width=600)
-st.title("Search Engine and Product Recommendation System ON Am Data")
+st.title("Amazon Product Recommendation System ")
 query = st.text_input("Enter Product Name")
 sumbit = st.button('Search')
 if sumbit:
